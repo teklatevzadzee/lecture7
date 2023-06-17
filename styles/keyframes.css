@@ -1,0 +1,22 @@
+@keyframes cloud1 {
+  0%   {left: 0px;}
+  100% {left: 1285px;}
+}
+@keyframes cloud2 {
+  0%   {left: 0px;}
+  100% {left: 1285px;}
+}
+@keyframes cloud3 {
+  0%   {left: 428px;}
+  100% {left: 856px;}
+}
+@keyframes sun {
+   from { transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+@keyframes plane {
+  0%   {left: 0px;}
+  100% {left: 1285px;} 
+}
+ 

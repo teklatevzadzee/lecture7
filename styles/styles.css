@@ -1,0 +1,46 @@
+body {
+	background-image: url("https://images.unsplash.com/photo-1429704658776-3d38c9990511?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1679&q=80");
+	background-size: cover;
+}
+.clouds {
+	display: inline-block;
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+	position: relative;
+}
+.sun {
+	width: 105px;
+	height: 105px;
+	animation: sun 5s linear infinite ;
+}
+.cloud1 {
+	width: 250px;
+	height: 132px;
+	animation: cloud1 15s linear infinite;
+	transition-timing-function: ease;
+	position: absolute;
+
+}
+.cloud2 {
+	width: 250px;
+	height: 132px;
+	animation: cloud2 15s linear infinite reverse;
+	transition-timing-function: ease;
+	position: absolute;
+}
+.cloud3 {
+	width: 250px;
+	height: 132px;
+	animation: cloud3 8s linear infinite;
+	transition-timing-function: ease;
+	position: absolute;
+}
+.plane {
+	width: 408px;
+	height: 408px;
+	position: absolute;
+	animation: plane 40s linear infinite reverse;
+	transition-timing-function: ease-in-out;
+}
+
+
