@@ -38,9 +38,21 @@ body {
 .plane {
 	width: 408px;
 	height: 408px;
-	position: absolute;
+	position: relative;
 	animation: plane 40s linear infinite reverse;
-	transition-timing-function: ease-in-out;
+	transition-timing-function: ease;
+}
+.man1 {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 37px;
+    top: 310px;
+    animation: man1 5s reverse;
+    animation-delay: 10s;
+    transition-timing-function: ease;
 }
 
+
+}
 
