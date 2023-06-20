@@ -1,6 +1,10 @@
 body {
-	background-image: url("https://images.unsplash.com/photo-1429704658776-3d38c9990511?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1679&q=80");
-	background-size: cover;
+	background-image: url("https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?cs=srgb&dl=pexels-%C3%A1kos-szab%C3%B3-440731.jpg&fm=jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+   height: auto;
+
 }
 .clouds {
 	display: inline-block;
@@ -35,24 +39,68 @@ body {
 	transition-timing-function: ease;
 	position: absolute;
 }
+.birds {
+	width: 512px;
+	height: 227px;
+	animation: birds 8s linear infinite;
+	transition-timing-function: ease;
+	position: absolute;
+}
+.jump {
+/*	display: inline-block;*/
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+	position: relative;
+
+}
 .plane {
 	width: 408px;
 	height: 408px;
-	position: relative;
-	animation: plane 40s linear infinite reverse;
+	position: absolute;
+	animation: plane 15s linear infinite reverse;
 	transition-timing-function: ease;
+	display: inline-block;
 }
 .man1 {
-	width: 30px;
-	height: 30px;
+	width: 27px;
+	height: 35px;
 	position: absolute;
-	left: 37px;
-    top: 310px;
-    animation: man1 5s reverse;
-    animation-delay: 10s;
+	z-index: 99;
+	left: 1037px;
+    top: 355px;
+    animation: man1 3s linear infinite;
+    animation-iteration-count: 1;
     transition-timing-function: ease;
+    opacity: 0;
+    animation-delay: 5s;
 }
-
-
+.man2 {
+	
+	width: 27px;
+	height: 35px;
+	position: absolute;
+	z-index: 99;
+	left: 1437px;
+    top: 205px;
+    animation: man2 5s linear infinite;
+    animation-iteration-count: 1;
+    transition-timing-function: ease;
+    opacity: 0;
+}
+.man3 {
+	width: 34px;
+	height: 98px;
+	position: absolute;
+	z-index: 99;
+	left: 1037px;
+    top: 355px;
+    animation: man3 2s linear infinite;
+    animation-iteration-count: 1;
+    transition-timing-function: ease;
+    opacity: 0;
+    animation-delay: 8s;
+}
+.plane:hover + .man2 {
+  opacity: 1;
 }
 

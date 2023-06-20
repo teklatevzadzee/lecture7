@@ -1,3 +1,7 @@
+@keyframes sun {
+   from { transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
 @keyframes cloud1 {
   0%   {left: 0px;}
   100% {left: 1285px;}
@@ -10,9 +14,9 @@
   0%   {left: 428px;}
   100% {left: 856px;}
 }
-@keyframes sun {
-   from { transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+@keyframes birds {
+  0%   {left: 0px;}
+  100% {left: 1285px;}
 }
 
 @keyframes plane {
@@ -20,9 +24,24 @@
   100% {left: 1285px;} 
 }
 
-@keyframes man1 {
-  0%   {left: 100px;}
-  100% {left: 400px;} 
+@keyframes man2 {
+  0% { left: 1437px;
+    top: 205px;}
+  100% {left: 1037px;
+    top: 355px;}
 }
+
+@keyframes man1 { 
+  0% {left: 1037px;
+    top: 355px; opacity:1;}
+  100% {left: 1037px;
+    top: 455px; opacity: 1;}
+} 
+@keyframes man3 { 
+  0% {left: 1037px;
+    top: 455px; opacity:1;}
+  100% {left: 1037px;
+    top: 455px; opacity: 1;}
+} 
 
  
